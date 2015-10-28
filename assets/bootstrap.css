@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+* {
+  border-radius: 0px !important;
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -3253,6 +3256,16 @@ fieldset[disabled] .btn-success.active {
   color: #5cb85c;
   background-color: #fff;
 }
+.btn-hot {
+  color: #fff;
+  background-color: #FD680B;
+  border-color: #CA5309;
+}
+.btn-hot:hover {
+  color: #fff;
+  background-color: #C85C1A;
+  border-color: #BB4800;  
+}
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
@@ -4635,6 +4648,17 @@ fieldset[disabled] .navbar-default .btn-link:hover,
 .navbar-default .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
+}
+.navbar-carbon {
+  background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
 }
 .navbar-inverse {
   background-color: #222;

@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="/assets/bootstrap.css">
-  <title>Storefront Categorized</title>
-</head>
+<?php $this->load->view('partials/customers') ?>
 <body>
   <h2><?= $category['name'] ?></h2>
 
